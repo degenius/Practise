@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="link_color">#4C566C</color>
+    <color name="link_color_focus">#138ac2</color>
+    <color name="fbcolor">#3b5999</color>
+    <color name="violet">#800080</color>
+    <color name="twittercolor">#2F9CC9</color>
+    <color name="dark_gray">#393738</color>
+    <color name="light_gray">#4C4F56</color>
+    <color name="grey_dark">#d5d5d5</color>
+    <color name="lime">#00FF00</color>
+    <color name="orange">#FF6600</color>
+    <color name="pink">#FF69b4</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="grey_light">#f0f0f0</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="black">#000000</color>
+    <color name="blackcm">#222222</color>
+
+</resources>

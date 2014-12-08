@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mysearchTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/search_result"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mysearchdetailsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mysearchTV"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/about_result"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/View"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/mysearchTV"
+        android:background="@android:color/black"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/mylistView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/View"
+        android:layout_marginTop="5dp" >
+    </ListView>
+
+</LinearLayout>
